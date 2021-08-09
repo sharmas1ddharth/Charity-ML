@@ -1,6 +1,6 @@
 ## Project: Finding Donors for CharityML
 
-In this project, I have applied several Machine learning models to accurately model individual's income. I have choosen best candidate model based on preliminary result using GridSearchCV to further optimize algorithm to best model the data. Goal of implementation is to predict if Individual makes more than 50K or less. This sort of task arise in an non profit setting where organisation surive on donations.
+In this project, I have applied several Machine learning models to accurately model individual's income. I have chosen best candidate model based on preliminary result using GridSearchCV to further optimize algorithm to best model the data. Goal of implementation is to predict if Individual makes more than 50K or less. This sort of task arise in an non profit setting where organisation survive on donations.
 Having this prediction would help non profit to better understand how large of donation to request or whether or not to reach out to begin with.
 
 
