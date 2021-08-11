@@ -3,7 +3,8 @@ import click
 import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
-
+import pandas as pd
+import os
 
 @click.command()
 @click.argument('input_filepath', type=click.Path(exists=True))
@@ -14,6 +15,19 @@ def main(input_filepath, output_filepath):
     """
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')
+    raw_to_data(input_filepath, output_filepath)
+    logger.info('data processing successful')
+
+def raw_to_data(input, output):
+    columns = ['age', 'workclass', 'fnlwgt', 'education_level', 'education-num', 'marital-status', 'occupation', 'relationship', 'race', 
+    'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country', 'income']
+
+    data = pd.read_csv(input)
+    data.columns = columns
+    data.drop('fnlwgt', axis=1, inplace=True)
+
+    data.to_csv(output, index=False)
+    
 
 
 if __name__ == '__main__':

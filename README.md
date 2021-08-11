@@ -1,6 +1,6 @@
 ## Project: Finding Donors for CharityML
 
-In this project, I have applied several Machine learning models to accurately model individual's income. I have chosen best candidate model based on preliminary result using GridSearchCV to further optimize algorithm to best model the data. Goal of implementation is to predict if Individual makes more than 50K or less. This sort of task arise in an non profit setting where organisation survive on donations.
+In this project, I have applied several Machine learning models to accurately model individual's income. I have choosen best candidate model based on preliminary result using GridSearchCV to further optimize algorithm to best model the data. Goal of implementation is to predict if Individual makes more than 50K or less. This sort of task arise in an non profit setting where organisation surive on donations.
 Having this prediction would help non profit to better understand how large of donation to request or whether or not to reach out to begin with.
 
 
@@ -90,7 +90,5 @@ The dataset for this project originates from the [UCI Machine Learning Repositor
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-3. Data processing/transformation scripts are being kept [here]
-4. etc...
-5. Follow setup [instructions](Link to file)
+2. Raw Data is being kept [here](https://github.com/python-programming-hub/Charity-ML/tree/main/data/raw) within this repo.
+3. Data processing/transformation scripts are being kept [here](https://github.com/python-programming-hub/Charity-ML/tree/main/src/data)
