@@ -90,5 +90,9 @@ The dataset for this project originates from the [UCI Machine Learning Repositor
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](https://github.com/python-programming-hub/Charity-ML/tree/main/data/raw) within this repo.
-3. Data processing/transformation scripts are being kept [here](https://github.com/python-programming-hub/Charity-ML/tree/main/src/data)
+2. Raw Data is being kept [here](https://github.com/sharmas1ddharth/Charity-ML/tree/main/data/raw) within this repo.
+3. Processed Data is being kept [here](https://github.com/sharmas1ddharth/Charity-ML/tree/main/data/processed)
+4. Access Trained Model [here](https://github.com/sharmas1ddharth/Charity-ML/tree/main/models)
+5. Access Jupyter Notebook [here](https://github.com/sharmas1ddharth/Charity-ML/blob/main/notebooks/charityml_project.ipynb)
+6. Access Data Transformation, Data Cleaning, Model Training, Model Predicting and all other scripts [here](https://github.com/sharmas1ddharth/Charity-ML/tree/main/src)
+
